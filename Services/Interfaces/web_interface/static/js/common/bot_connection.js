@@ -1,5 +1,5 @@
 /*
- * Drakkar-Software OctoBot
+ * Drakkar-Software QuantGuardBot
  * Copyright (c) Drakkar-Software, All rights reserved.
  *
  * This library is free software; you can redistribute it and/or
@@ -74,7 +74,7 @@ function handle_route_button(){
                         button.html("<i class='fa fa-circle-notch fa-spin'></i>");
                     },
                     success: function() {
-                        create_alert("info", "OctoBot is stopping", "");
+                        create_alert("info", " QuantGuardBot is stopping", "");
                     },
                     complete: function() {
                        button.html(origin_val);

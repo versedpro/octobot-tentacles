@@ -34,7 +34,7 @@
         }
     },
     "profile": {
-        "avatar": "default_profile.png",
+        "avatar": "default_profile.jpg",
         "risk": 1,
         "complexity": 1,
         "description": "Copy Trading is following moves from the specified trading strategy.",

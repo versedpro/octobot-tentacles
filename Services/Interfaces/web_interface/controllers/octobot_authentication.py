@@ -1,4 +1,4 @@
-#  Drakkar-Software OctoBot-Interfaces
+#  Drakkar-Software QuantGuardBot-Interfaces
 #  Copyright (c) Drakkar-Software, All rights reserved.
 #
 #  This library is free software; you can redistribute it and/or
@@ -46,7 +46,7 @@ def register(blueprint):
                     form.password.errors.append('Invalid password')
                 logger.warning(f"Invalid login attempt from : {flask.request.remote_addr}")
             else:
-                form.password.errors.append('Too many attempts. Please restart your OctoBot to be able to login.')
+                form.password.errors.append('Too many attempts. Please restart your QuantGuardBot to be able to login.')
         return flask.render_template(
             'login.html',
             form=form,

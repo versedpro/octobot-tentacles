@@ -106,8 +106,8 @@
             <h4>Configuration issue</h4>
             <p>
                 An error occurred when loading your configuration.
-                Editing your OctoBot configuration might currently be impossible.
-                Please report this error to the OctoBot team if you see it.
+                Editing your QuantGuardBot configuration might currently be impossible.
+                Please report this error to the QuantGuardBot team if you see it.
             </p>
         </div>
         {% endif %}
@@ -129,7 +129,7 @@
             </div>
             {% for profile_id, profile in profiles.items() %}
             {{m_config_profile_tab.profile_tab(current_profile, profile, profiles_tentacles_details[profile_id], strategy_config, evaluator_config,
-                                               get_profile_traded_pairs_by_currency, get_profile_exchanges, get_enabled_trader, get_filtered_list, OCTOBOT_DOCS_URL)}}
+                                               get_profile_traded_pairs_by_currency, get_profile_exchanges, get_enabled_trader, get_filtered_list, '')}}
             {% endfor %}
             <div class="tab-pane fade config-root show" id="panelStrategies" role="tabpanel"
                  aria-labelledby="panelStrategies-tab">
@@ -146,9 +146,9 @@
                     <div class="alert alert-warning" role="alert">
                         <h4>Profile version warning</h4>
                         <p>
-                            Your current profile ({{ current_profile.name }}) has been imported from an OctoBot on version
+                            Your current profile ({{ current_profile.name }}) has been imported from an QuantGuardBot on version
                             {{ profiles_tentacles_details[current_profile.profile_id]["version"] }}.
-                            Please make sure that this profile is compatible with OctoBot {{ CURRENT_BOT_VERSION }}
+                            Please make sure that this profile is compatible with QuantGuardBot {{ CURRENT_BOT_VERSION }}
                             or download a newer version.
                         </p>
                     </div>
@@ -251,11 +251,11 @@
                                                             They can use strategy(ies) to receive signals and create orders accordingly.
                                                         </p>
                                                         <p>
-                                                            Lean more about OctoBot trading modes on
-                                                            <a target="_blank" rel="noopener"
-                                                               href="{{OCTOBOT_DOCS_URL}}/octobot-trading-modes/trading-modes?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=read_only_profile">
-                                                                the trading modes guides
-                                                            </a>.
+                                                            Lean more about QuantGuardBot trading modes on guides(coming soon)
+<!--                                                            <a target="_blank" rel="noopener"-->
+<!--                                                               href="{{OCTOBOT_DOCS_URL}}/octobot-trading-modes/trading-modes?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=read_only_profile">-->
+<!--                                                                the trading modes guides-->
+<!--                                                            </a>.-->
                                                         </p>
                                                     </div>
                                                   </div>
@@ -302,7 +302,7 @@
                     <div class="card-body deck-container">
                         {% if in_backtesting %}
                         <div class="alert alert-warning" role="alert">
-                            OctoBot is currently running in backtesting analysis, information in this section may not be
+                            QuantGuardBot is currently running in backtesting analysis, information in this section may not be
                             accurate and changes won't be saved.
                         </div>
                         {% endif %}
@@ -419,12 +419,12 @@
                         <div class="card-deck config-container">
                     <span class="col-lg-12">
                         {{ m_config_trader_card.config_trader_card(config_trading, "trading", "Trading settings",
-                            link=OCTOBOT_DOCS_URL+"/octobot-configuration/profile-configuration#trading") }}
+                            link="") }}
                     </span>
                             {{ m_config_trader_card.config_trader_card(config_trader, "trader", "Trader",
-                            link=OCTOBOT_DOCS_URL+"/octobot-usage/simulator#real-trader") }}
+                            link="") }}
                             {{ m_config_trader_card.config_trader_card(config_trader_simulator, "trader-simulator",
-                            "Trader simulator", link=OCTOBOT_DOCS_URL+"/octobot-usage/simulator?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=simulator_config",
+                            "Trader simulator", link="",
                             footer_text="Changes in the simulated starting portfolio will reset enabled exchanges simulated portfolio history.") }}
                         </div>
                     </div>

@@ -1,7 +1,7 @@
 {% macro bot_selector(all_user_bots, selected_user_bot) -%}
 <div>
     <h4>
-        Multiple bots available on this account, please select the one to use on this OctoBot.
+        Multiple bots available on this account, please select the one to use on this QuantGuardBot.
     </h4>
     <div id="bot-selector" data-update-url="{{ url_for('api.select_bot') }}">
         {% for bot in all_user_bots %}
@@ -29,10 +29,10 @@
 
     </div>
     <div class="alert alert-info">
-        Bots allow you to identify and load data about a particular OctoBot through your Community account.
+        Bots allow you to identify and load data about a particular QuantGuardBot through your Community account.
         <br>
         <span class="font-weight-bold">
-            Never use the same bot on multiple OctoBots at the same time as it will prevent
+            Never use the same bot on multiple QuantGuardBots at the same time as it will prevent
             it from working properly.
         </span>
     </div>

@@ -34,7 +34,7 @@
         }
     },
     "profile": {
-        "avatar": "default_profile.png",
+        "avatar": "default_profile.jpg",
         "risk": 1,
         "complexity": 1,
         "description": "GridTrading is a profile configured to create a pre-defined amount of buy and sell orders at fixed intervals to profit from any market move. When an order is filled, a mirror order is instantly created and generates profit when completed. GridTrading is a simpler version of the StaggeredOrdersTradingMode.",

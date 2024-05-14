@@ -1,5 +1,5 @@
 /*
- * Drakkar-Software OctoBot
+ * Drakkar-Software QuantGuardBot
  * Copyright (c) Drakkar-Software, All rights reserved.
  *
  * This library is free software; you can redistribute it and/or
@@ -183,20 +183,20 @@ function update_status(status){
 
     // create alert if required
     if (status && icon_status.hasClass("fa-times-circle")){
-        create_alert("success", "Reconnected to Octobot", "");
+        create_alert("success", "Reconnected to QuantGuardBot", "");
     }else if(!status && icon_status.hasClass("fa-check")){
-        create_alert("error", "Connection lost with Octobot", "Reconnecting...");
+        create_alert("error", "Connection lost with QuantGuardBot", "Reconnecting...");
     }
 
     // update central status
     if (status){
         icon_status.removeClass("fa-times-circle icon-black");
         icon_status.addClass("fa-check");
-        icon_status.attr("title","OctoBot operational");
+        icon_status.attr("title"," QuantGuardBot operational");
     }else{
         icon_status.removeClass("fa-check");
         icon_status.addClass("fa-times-circle icon-black");
-        icon_status.attr("title","OctoBot offline");
+        icon_status.attr("title"," QuantGuardBot offline");
     }
 }
 

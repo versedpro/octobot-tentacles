@@ -1,4 +1,4 @@
-#  Drakkar-Software OctoBot-Interfaces
+#  Drakkar-Software QuantGuardBot-Interfaces
 #  Copyright (c) Drakkar-Software, All rights reserved.
 #
 #  This library is free software; you can redistribute it and/or
@@ -117,7 +117,7 @@ def register(blueprint):
     def tentacle_packages():
         if flask.request.method == 'POST':
             if not constants.CAN_INSTALL_TENTACLES:
-                return util.get_rest_reply(f'Impossible to install tentacles on this cloud OctoBot.', 500)
+                return util.get_rest_reply(f'Impossible to install tentacles on this cloud QuantGuardBot.', 500)
             update_type = flask.request.args["update_type"]
             return _handle_tentacles_pages_post(update_type)
     

@@ -1,5 +1,5 @@
 /*
- * Drakkar-Software OctoBot
+ * Drakkar-Software QuantGuardBot
  * Copyright (c) Drakkar-Software, All rights reserved.
  *
  * This library is free software; you can redistribute it and/or
@@ -108,7 +108,7 @@ function get_watched_symbol_price_graph(element, callback=undefined, no_data_cal
                     }
                 }, no_data_callback);
         }else if($.isEmptyObject(data)){
-            // OctoBot is starting, try again
+            // QuantGuardBot is starting, try again
             const marketsElement = $("#loadingMarketsDiv");
             marketsElement.removeClass(disabled_item_class);
             setTimeout(function(){

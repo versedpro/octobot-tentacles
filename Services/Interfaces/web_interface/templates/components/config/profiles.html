@@ -52,7 +52,7 @@ get_filtered_list, read_only=False) %}
 <div>
     <h4>
         Overview:
-        <span class="float-right"><span class="d-none d-md-inline">Built on OctoBot </span><span class="badge badge-light">{{tentacles_details["version"]}}</span></span>
+        <span class="float-right"><span class="d-none d-md-inline">Built on QuantGuardBot </span><span class="badge badge-light">{{tentacles_details["version"]}}</span></span>
     </h4>
     <div>
         <div class="row">
@@ -242,9 +242,12 @@ get_filtered_list, read_only=False) %}
                         data-toggle="tooltip" title="Use this profile">
                     <i class="fas fa-check" aria-hidden="true"></i>
                 </button>
-                <a class="float-right blue-text" target="_blank" rel="noopener" href="{{OCTOBOT_DOCS_URL}}/octobot-configuration/profiles?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=profiles_config">
+                <a class="float-right blue-text" target="_blank" rel="noopener" href="">
                     &nbsp <i class="fa-solid fa-question"></i>
                 </a>
+<!--                <a class="float-right blue-text" target="_blank" rel="noopener" href="{{OCTOBOT_DOCS_URL}}/octobot-configuration/profiles?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=profiles_config">-->
+<!--                    &nbsp <i class="fa-solid fa-question"></i>-->
+<!--                </a>-->
             </h2>
         </div>
         <div class="card-body deck-container">
@@ -380,7 +383,7 @@ get_filtered_list, read_only=False) %}
         </div>
         </h4>
         <div class="text-center">
-            <img src="{{url_for('profile_media', path=profile.avatar_path) if profile.avatar_path else url_for('static', filename='img/default_profile.png')}}"
+            <img src="{{url_for('profile_media', path=profile.avatar_path) if profile.avatar_path else url_for('static', filename='img/default_profile.jpg')}}"
                  class="img-fluid profile-overview-image" alt="{{profile.name}}">
         </div>
         <p class="pt-2 text-center">

@@ -1,4 +1,4 @@
-#  Drakkar-Software OctoBot-Interfaces
+#  Drakkar-Software QuantGuardBot-Interfaces
 #  Copyright (c) Drakkar-Software, All rights reserved.
 #
 #  This library is free software; you can redistribute it and/or
@@ -156,7 +156,7 @@ class WebInterface(services_interfaces.AbstractWebInterface):
                 await trading_api.subscribe_to_order_channel(self._web_orders_callback, exchange_id)
                 await trading_api.subscribe_to_ohlcv_channel(self._web_ohlcv_empty_callback, exchange_id)
         except ImportError:
-            self.logger.error("Watching trade channels requires OctoBot-Trading package installed")
+            self.logger.error("Watching trade channels requires QuantGuardBot-Trading package installed")
 
     def init_flask_plugins_and_config(self, server_instance):
         # Only setup flask plugins once per flask app (can't call flask setup methods after the 1st request

@@ -1,4 +1,4 @@
-#  Drakkar-Software OctoBot-Tentacles
+#  Drakkar-Software QuantGuardBot-Tentacles
 #  Copyright (c) Drakkar-Software, All rights reserved.
 #
 #  This library is free software; you can redistribute it and/or
@@ -61,7 +61,7 @@ async def _init_bot():
     community.IdentifiersProvider.use_production()
     singleton.Singleton._instances.pop(authentication.Authenticator, None)
     singleton.Singleton._instances.pop(community.CommunityAuthentication, None)
-    octobot = octobot.OctoBot(test_config.load_test_config(dict_only=False))
+    octobot = octobot.QuantGuardBot(test_config.load_test_config(dict_only=False))
     octobot.initialized = True
     tentacles_config = config.load_test_tentacles_config()
     loaders.reload_tentacle_by_tentacle_class()

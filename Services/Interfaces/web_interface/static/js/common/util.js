@@ -1,5 +1,5 @@
 /*
- * Drakkar-Software OctoBot
+ * Drakkar-Software QuantGuardBot
  * Copyright (c) Drakkar-Software, All rights reserved.
  *
  * This library is free software; you can redistribute it and/or
@@ -137,7 +137,7 @@ function generic_request_success_callback(updated_data, update_url, dom_root_ele
 
 function generic_request_failure_callback(updated_data, update_url, dom_root_element, msg, status) {
     if(isBotDisconnected()){
-        create_alert("error", "Can't connect to OctoBot", "Your OctoBot might be offline.");
+        create_alert("error", "Can't connect to QuantGuardBot", "Your QuantGuardBot might be offline.");
     }else{
         create_alert("error", msg.responseText, "");
     }

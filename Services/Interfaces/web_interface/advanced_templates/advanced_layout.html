@@ -2,7 +2,7 @@
 <html lang="en">
     {% set active_page = active_page|default('advanced.home') -%}
     <head>
-        <title>{{ active_page.split(".")[-1] | replace("_", " ") | capitalize }} - OctoBot</title>
+        <title>{{ active_page.split(".")[-1] | replace("_", " ") | capitalize }} - QuantGuardBot</title>
 
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -12,7 +12,7 @@
         <meta name="robots" content="noindex">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 
         {% block additional_meta %}
         {% endblock additional_meta %}
@@ -83,8 +83,8 @@
                 </ul>
             </div>
             <div class="mx-auto order-0">
-                <a class="navbar-brand mx-auto" href="{{ url_for('advanced.home') }}">Advanced OctoBot
-                    <i id="navbar-bot-status" class="fa fa-check" data-toggle="tooltip" data-placement="bottom" title="OctoBot operational"></i>
+                <a class="navbar-brand mx-auto" href="{{ url_for('advanced.home') }}">Advanced QuantGuardBot
+                    <i id="navbar-bot-status" class="fa fa-check" data-toggle="tooltip" data-placement="bottom" title=" QuantGuardBot operational"></i>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
                     <span class="navbar-toggler-icon"></span>
@@ -104,7 +104,7 @@
                         </li>
                         {% endif %}
                         <li class="nav-item mx-1 px-0 my-auto">
-                            <a class="btn btn-sm btn-outline-default waves-effect" href="{{ url_for('home') }}"><i class="fa fa-home"></i> Back to OctoBot</a>
+                            <a class="btn btn-sm btn-outline-default waves-effect" href="{{ url_for('home') }}"><i class="fa fa-home"></i> Back to QuantGuardBot</a>
                         </li>
                     {% endif %}
                 </ul>

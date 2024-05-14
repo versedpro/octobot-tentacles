@@ -1,4 +1,4 @@
-#  Drakkar-Software OctoBot-Interfaces
+#  Drakkar-Software QuantGuardBot-Interfaces
 #  Copyright (c) Drakkar-Software, All rights reserved.
 #
 #  This library is free software; you can redistribute it and/or
@@ -49,7 +49,7 @@ def get_preview_tentacles_packages(url_for):
         "AI candles analyser",
         "Tentacles packages offering artificial intelligence analysis tools based on candles shapes.",
         None, True,
-        [url_for("static", filename="img/community/tentacles_packages_previews/octobot.png")], None, None, None)
+        [url_for("static", filename="img/community/tentacles_packages_previews/octobot.jpg")], None, None, None)
     c1.uninstalled = False
     c2 = octobot_community.CommunityTentaclesPackage(
         "Telegram portfolio management",
@@ -59,7 +59,7 @@ def get_preview_tentacles_packages(url_for):
     c2.uninstalled = False
     c3 = octobot_community.CommunityTentaclesPackage(
         "Mobile first web interface",
-        "Use a mobile oriented interface for your OctoBot.",
+        "Use a mobile oriented interface for your QuantGuardBot.",
         None, True,
         [url_for("static", filename="img/community/tentacles_packages_previews/mobile.png")], None, None, None)
     c3.uninstalled = True

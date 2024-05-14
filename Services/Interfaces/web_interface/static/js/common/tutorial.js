@@ -19,23 +19,23 @@ _TUTORIALS = {
         return {
             steps: [
                 {
-                    title: 'Welcome to OctoBot',
-                    intro: `Your OctoBot is now trading using the ${profileName} profile.`
+                    title: 'Welcome to QuantGuardBot',
+                    intro: `Your QuantGuardBot is now trading using the ${profileName} profile.`
                 },
                 {
-                    title: 'Quickly navigate through your OctoBot',
+                    title: 'Quickly navigate through your QuantGuardBot',
                     element: document.querySelector('#main-nav-bar'),
                     intro: ''
                 },
                 {
-                    title: 'Your live OctoBot',
+                    title: 'Your live QuantGuardBot',
                     element: document.querySelector('#main-nav-left-part'),
-                    intro: 'See and configure your live OctoBot.'
+                    intro: 'See and configure your live QuantGuardBot.'
                 },
                 {
                     title: 'Trading activity',
                     element: document.querySelector('#main-nav-trading'),
-                    intro: `View your OctoBot's current open orders and trades history.`
+                    intro: `View your QuantGuardBot's current open orders and trades history.`
                 },
                 {
                     title: 'Portfolio',
@@ -50,7 +50,7 @@ _TUTORIALS = {
                 {
                     title: 'Trading type',
                     element: document.querySelector('#main-nav-trading-type'),
-                    intro: 'See if your Octobot is trading simulated or real funds.'
+                    intro: 'See if your QuantGuardBot is trading simulated or real funds.'
                 },
                 {
                     title: 'Test your profile',
@@ -60,7 +60,7 @@ _TUTORIALS = {
                 {
                     title: 'Community',
                     element: document.querySelector('#main-nav-community'),
-                    intro: 'Access OctoBot cloud strategies, your OctoBot account and the community stats.'
+                    intro: 'Access QuantGuardBot cloud strategies, your QuantGuardBot account and the community stats.'
                 },
                 {
                     title: 'Customize your dashboard',
@@ -69,7 +69,7 @@ _TUTORIALS = {
                 },
                 {
                     title: "That's it !",
-                    intro: 'We hope you will enjoy OctoBot. Use the <a class="blue-text" target="_blank"><i class="fa-solid fa-question"></i></a> buttons to learn more on how to use OctoBot'
+                    intro: 'We hope you will enjoy QuantGuardBot. Use the <a class="blue-text" target="_blank"><i class="fa-solid fa-question"></i></a> buttons to learn more on how to use QuantGuardBot'
                 },
             ]
         }
@@ -80,12 +80,12 @@ _TUTORIALS = {
             steps: [
                 {
                     title: 'Profile configuration',
-                    intro: 'From this tab, you can configure your OctoBot profile.'
+                    intro: 'From this tab, you can configure your QuantGuardBot profile.'
                 },
                 {
                     title: 'Select another profile',
                     element: document.querySelector('#profile-selector-link'),
-                    intro: 'You can change the profile used by your OctoBot at any time.'
+                    intro: 'You can change the profile used by your QuantGuardBot at any time.'
                 },
                 {
                     title: 'Customize your profiles',
@@ -129,8 +129,8 @@ _TUTORIALS = {
         return {
             steps: [
                 {
-                    title: 'Welcome to OctoBot',
-                    intro: `To start with OctoBot, select the trading profile that you want to use at first.`
+                    title: 'Welcome to QuantGuardBot',
+                    intro: `To start with QuantGuardBot, select the trading profile that you want to use at first.`
                 },
                 {
                     title: 'Choosing your profile',
@@ -145,7 +145,7 @@ _TUTORIALS = {
                 {
                     title: 'Get more profiles',
                     element: document.querySelector('.login_box'),
-                    intro: `Use OctoBot cloud to add profiles to your OctoBot.`
+                    intro: `Use QuantGuardBot cloud to add profiles to your QuantGuardBot.`
                 },
             ]
         }
@@ -156,17 +156,17 @@ _TUTORIALS = {
             steps: [
                 {
                     title: 'Welcome to automations',
-                    intro: `Here you can automate any action directly form your OctoBot.`
+                    intro: `Here you can automate any action directly form your QuantGuardBot.`
                 },
                 {
                     title: 'What are automations ?',
                     element: document.querySelector('#configEditor'),
-                    intro: `Automations are actions your OctoBot can process on a given event or frequency.`
+                    intro: `Automations are actions your QuantGuardBot can process on a given event or frequency.`
                 },
                 {
                     title: 'Example 1/2',
                     element: document.querySelector('#configEditor'),
-                    intro: `Make your OctoBot send you a notification if your profitability increased by 10% in a day.`
+                    intro: `Make your QuantGuardBot send you a notification if your profitability increased by 10% in a day.`
                 },
                 {
                     title: 'Example 2/2',
@@ -176,7 +176,7 @@ _TUTORIALS = {
                 {
                     title: 'Launch automations',
                     element: document.querySelector('#applyAutomations'),
-                    intro: `Automations are started with your OctoBot and when hitting the Apply button.`
+                    intro: `Automations are started with your QuantGuardBot and when hitting the Apply button.`
                 },
                 {
                     title: 'Automations are saved in your profile',
@@ -198,11 +198,11 @@ _TUTORIALS = {
                 {
                     title: 'Your profitability',
                     element: document.querySelector('#profitability-display'),
-                    intro: 'Your OctoBot trading profitability compared to the market.'
+                    intro: 'Your QuantGuardBot trading profitability compared to the market.'
                 },
                 {
                     title: 'See also',
-                    intro: `More details on ${getDocsLink("/octobot-usage/understanding-profitability?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=dashboard_intro", "the OctoBot docs")}.`
+                    intro: `More details on ${getDocsLink("/octobot-usage/understanding-profitability?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=dashboard_intro", "the QuantGuardBot docs")}.`
                 },
             ]
         }
@@ -222,7 +222,7 @@ _TUTORIALS = {
                 },
                 {
                     title: 'See also',
-                    intro: `More details on supported exchanges in the ${getExchangesDocsLink("?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=exchanges_config", "OctoBot exchanges docs")}.`
+                    intro: `More details on supported exchanges in the ${getExchangesDocsLink("?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=exchanges_config", " QuantGuardBot exchanges docs")}.`
                 },
             ]
         }

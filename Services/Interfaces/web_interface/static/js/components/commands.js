@@ -1,5 +1,5 @@
 /*
- * Drakkar-Software OctoBot
+ * Drakkar-Software QuantGuardBot
  * Copyright (c) Drakkar-Software, All rights reserved.
  *
  * This library is free software; you can redistribute it and/or
@@ -32,7 +32,7 @@ function load_commands_metadata() {
             },
             error: function(result, status, error){
                 setNoFeedback(feedbackButton);
-                window.console&&console.error("Impossible to get the current OctoBot feedback form: "+error);
+                window.console&&console.error("Impossible to get the current QuantGuardBot feedback form: "+error);
             }
         })
     }
@@ -46,7 +46,7 @@ function update_metrics_option(){
     const metrics_input = $("#metricsCheckbox");
     function metrics_success_callback(updated_data, update_url, dom_root_element, msg, status) {
         if(updated_data){
-            create_alert("success", "Anonymous statistics enabled", "Thank you for supporting OctoBot development!");
+            create_alert("success", "Anonymous statistics enabled", "Thank you for supporting QuantGuardBot development!");
         }else{
             create_alert("success", "Anonymous statistics disabled", "");
         }
@@ -57,7 +57,7 @@ function update_metrics_option(){
 
 function update_beta_option(){
     function beta_success_callback(updated_data, update_url, dom_root_element, msg, status) {
-        const details = "Please restart your OctoBot for it to take effect."
+        const details = "Please restart your QuantGuardBot for it to take effect."
         if(updated_data){
             create_alert("success", "Beta environment enabled", details);
         }else{

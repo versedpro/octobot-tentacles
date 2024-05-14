@@ -1,4 +1,4 @@
-#  Drakkar-Software OctoBot-Interfaces
+#  Drakkar-Software QuantGuardBot-Interfaces
 #  Copyright (c) Drakkar-Software, All rights reserved.
 #
 #  This library is free software; you can redistribute it and/or
@@ -32,7 +32,7 @@ def register(blueprint):
     def tentacle_media(path=None):
         # images
         if models.is_valid_tentacle_image_path(path):
-            # reference point is the web interface directory: use OctoBot root folder as a reference
+            # reference point is the web interface directory: use QuantGuardBot root folder as a reference
             return _send_file("../../../..", path)
     
     
@@ -41,7 +41,7 @@ def register(blueprint):
     def profile_media(path):
         # images
         if models.is_valid_profile_image_path(path):
-            # reference point is the web interface directory: use OctoBot root folder as a reference
+            # reference point is the web interface directory: use QuantGuardBot root folder as a reference
             return _send_file("../../../..", path)
     
     
@@ -55,7 +55,7 @@ def register(blueprint):
     @login.login_required_when_activated
     def audio_media(name):
         if models.is_valid_audio_path(name):
-            # reference point is the web interface directory: use OctoBot root folder as a reference
+            # reference point is the web interface directory: use QuantGuardBot root folder as a reference
             return _send_file("static/audio", name)
     
     

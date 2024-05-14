@@ -11,7 +11,7 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">{{ item_name }}</th>
-                    <th scope="col">OctoBots</th>
+                    <th scope="col">QuantGuardBots</th>
                 </tr>
               </thead>
               <tbody>
@@ -39,7 +39,7 @@
     <div class="card">
         <div class="card-header">
             <h2>
-                OctoBot Community metrics
+                QuantGuardBot Community metrics
                 <a class="badge unique-color-dark float-right" href="https://t.me/joinchat/F9cyfxV97ZOaXQ47H5dRWw" target="_blank" rel="noopener">
                     <i class="fab fa-telegram"></i> <span class="d-none d-md-inline-block">Community chat</span>
                 </a>
@@ -48,7 +48,7 @@
     </div>
     <br>
     <div class="col card text-center align-self-start">
-        <div class="card-header"><h3>Active OctoBots</h3></div>
+        <div class="card-header"><h3>Active QuantGuardBots</h3></div>
         <h4>
             <div class="card-body row">
                 {{ col_elem_with_badge("Total:", community_metrics['total_count']) }}
@@ -66,14 +66,14 @@
                         <a class="nav-link primary-tab-selector active show" id="real-tab" data-toggle="tab" href="#real" role="tab"
                            aria-controls="real"
                            aria-selected="true">
-                            <h5>Real trading OctoBots this month</h5>
+                            <h5>Real trading QuantGuardBots this month</h5>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link primary-tab-selector" id="simulated-tab" data-toggle="tab" href="#simulated" role="tab"
                            aria-controls="simulated"
                            aria-selected="false">
-                            <h5>Simulated trading OctoBots this month</h5>
+                            <h5>Simulated trading QuantGuardBots this month</h5>
                         </a>
                     </li>
                 </ul>
@@ -98,7 +98,7 @@
     </div>
 {% else %}
     <div class="card">
-        <div class="card-header"><h2>To be part of the OctoBot community, please enable <a href="{{ url_for('about') }}"> OctoBot community data</a>.</h2></div>
+        <div class="card-header"><h2>To be part of the QuantGuardBot community, please enable <a href="{{ url_for('about') }}"> QuantGuardBot community data</a>.</h2></div>
     </div>
 {% endif %}
 <br>

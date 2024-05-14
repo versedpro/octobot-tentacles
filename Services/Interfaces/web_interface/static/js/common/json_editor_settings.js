@@ -1,5 +1,5 @@
 /*
- * Drakkar-Software OctoBot
+ * Drakkar-Software QuantGuardBot
  * Copyright (c) Drakkar-Software, All rights reserved.
  *
  * This library is free software; you can redistribute it and/or
@@ -19,7 +19,7 @@
 // set bootstrap 4 theme for JSONEditor (https://github.com/json-editor/json-editor#css-integration)
 JSONEditor.defaults.options.iconlib = 'fontawesome5';
 // custom octobot theme
-class OctoBotTheme extends JSONEditor.defaults.themes.bootstrap4 {
+class QuantGuardBotTheme extends JSONEditor.defaults.themes.bootstrap4 {
   getButton(text, icon, title) {
     const el = super.getButton(text, icon, title);
     el.classList.remove("btn-secondary");
@@ -87,7 +87,7 @@ class ConfirmArray extends JSONEditor.defaults.editors.array {
   }
 }
 
-JSONEditor.defaults.themes.octobot = OctoBotTheme;
+JSONEditor.defaults.themes.octobot = QuantGuardBotTheme;
 JSONEditor.defaults.editors.array = ConfirmArray;
 JSONEditor.defaults.options.theme = 'octobot';
 JSONEditor.defaults.options.required_by_default = true;

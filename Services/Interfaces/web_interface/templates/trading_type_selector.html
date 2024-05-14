@@ -22,19 +22,19 @@
         <div class="text-center my-2">
             Select the exchange to use :
             <select id="AddExchangeSelect" class="selectpicker" data-live-search="true">
-                <optgroup label="OctoBot fully tested">
+                <optgroup label="QuantGuardBot fully tested">
                    {% for exchange in ccxt_tested_exchanges %}
                         <option data-tokens="{{ exchange }}" {{"selected" if exchange == enabled_exchanges[0] else ""}}>{{ exchange }}</option>
                    {% endfor %}
                 </optgroup>
                 {% if ccxt_simulated_tested_exchanges %}
-                <optgroup label="OctoBot tested with simulated trading">
+                <optgroup label="QuantGuardBot tested with simulated trading">
                    {% for exchange in ccxt_simulated_tested_exchanges %}
                         <option data-tokens="{{ exchange }}">{{ exchange }}</option>
                    {% endfor %}
                 </optgroup>
                 {% endif %}
-                <optgroup label="OctoBot untested">
+                <optgroup label="QuantGuardBot untested">
                    {% for exchange in ccxt_other_exchanges %}
                         <option data-tokens="{{ exchange }}">{{ exchange }}</option>
                    {% endfor %}
@@ -98,7 +98,7 @@
                 <div>
                     <button class="btn btn-primary btn-lg"
                             data-toggle="tooltip" data-placement="top"
-                            title="Save and start trading with simulated money. Will restart OctoBot if necessary."
+                            title="Save and start trading with simulated money. Will restart QuantGuardBot if necessary."
                             data-role="start-trading"
                             data-trading-type="simulated"
                             data-config-url="{{url_for('config')}}"
@@ -122,7 +122,7 @@
                 <div>
                     <button class="btn btn-primary btn-lg"
                             data-toggle="tooltip" data-placement="top"
-                            title="Save and start trading with exchange funds. Will restart OctoBot if necessary."
+                            title="Save and start trading with exchange funds. Will restart QuantGuardBot if necessary."
                             data-role="start-trading"
                             data-trading-type="real"
                             data-config-url="{{url_for('config')}}"

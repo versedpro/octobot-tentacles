@@ -41,7 +41,7 @@
         }
     },
     "profile": {
-        "avatar": "default_profile.png",
+        "avatar": "default_profile.jpg",
         "risk": 3,
         "complexity": 1,
         "description": "SignalTrading is adapted to liquid and relatively flat markets. It will try to find reversals and trade them.",

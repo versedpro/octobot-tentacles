@@ -1,5 +1,5 @@
 /*
- * Drakkar-Software OctoBot
+ * Drakkar-Software QuantGuardBot
  * Copyright (c) Drakkar-Software, All rights reserved.
  *
  * This library is free software; you can redistribute it and/or
@@ -119,8 +119,8 @@ a.profile-overview-values {
 }
 
 .profile-overview-selected {
-    border-bottom: 2px solid #C62828;
-    border-right: 2px solid #C62828;
+    border-bottom: 2px solid #197dfa;
+    border-right: 2px solid #197dfa;
     background-color: #212121;
 }
 
@@ -130,7 +130,7 @@ a.profile-overview-values {
 }
 
 .navbar.navbar-dark, footer.page-footer .footer-copyright, .progress-bar {
-    background-color: #C62828;
+    background-color: #197dfa;
 }
 
 .navbar.navbar-dark .navbar-nav .nav-item {
@@ -233,12 +233,12 @@ a.profile-overview-values {
 }
 
 a.nav-link.primary-tab-selector.active {
-    background-color: #C62828;
+    background-color: #197dfa;
 }
 
 a.nav-link.active.primary-pill,
 a.nav-link.active.primary-pill:hover{
-    background-color: #C62828;
+    background-color: #197dfa;
     color: white !important;
 }
 
@@ -276,7 +276,7 @@ a.nav-link.active.primary-pill:hover{
 
 .community-bot-stats {
   font-size: large;
-  background-color: #C62828;
+  background-color: #197dfa;
 }
 
 .package_row_image {
@@ -312,7 +312,7 @@ a.nav-link.active.primary-pill:hover{
 }
 
 .text-danger-darker {
-    color: #C62828;
+    color: #197dfa;
 }
 
 .disabled-text {
@@ -447,7 +447,7 @@ a.nav-link.active.primary-pill:hover{
 
 .card .card-deck .card-short,
 .card .card-deck .card-short .card-body{
-    background-color: #C62828 !important;
+    background-color: #197dfa !important;
 }
 
 .card .card-deck .card-very-short,

@@ -5,14 +5,14 @@
     <div update-url="{{ url_for('api.announcements') }}" class="alert alert-danger text-center d-none" role="alert" id="annoncementsAlert"></div>
     {% if not IS_CLOUD %}
     <div class="d-none alert alert-success text-center my-2" role="alert">
-        <h5 class="d-none d-sm-inline"><span class="d-none d-md-inline"><i class="far fa-bell"></i> Good news ! </span>OctoBot version <span update-url="{{ url_for('api.upgrade_version') }}" id="upgradeVersion"></span> is available.</h5><button route="{{ url_for('commands', cmd='update') }}" type="button" class="btn btn-warning waves-effect">Upgrade now <i class="fas fa-cloud-download-alt"></i></button>
+        <h5 class="d-none d-sm-inline"><span class="d-none d-md-inline"><i class="far fa-bell"></i> Good news ! </span> QuantGuardBot version <span update-url="{{ url_for('api.upgrade_version') }}" id="upgradeVersion"></span> is available.</h5><button route="{{ url_for('commands', cmd='update') }}" type="button" class="btn btn-warning waves-effect">Upgrade now <i class="fas fa-cloud-download-alt"></i></button>
     </div>
     {% endif %}
     <span id="exchange-specific-data">
         {% if display_trading_delay_info %}
             <div class="alert alert-info mt-2" role="alert">
                 <i class="fa-regular fa-lightbulb"></i>
-                A new trading mode has just been selected, OctoBot is now looking for trading opportunities.
+                A new trading mode has just been selected, QuantGuardBot is now looking for trading opportunities.
                 Depending on the profile settings, a few hours might be required before the first orders are created.
                 Use <a href="backtesting">Backesting</a> to quickly test trading strategies.
             </div>
@@ -20,14 +20,14 @@
         {% if is_in_stating_community_env() %}
         <div class="card my-2 my-md-4">
             <div class="card-header"><h2>
-                Welcome to the OctoBot beta environment
+                Welcome to the QuantGuardBot beta environment
                 </h2>
             </div>
             <div class="card-body card-text">
                 <div class="alert alert-info">
                     When the beta environment is enabled, you will be connected to the "in development"
-                    version of OctoBot cloud (<a href="{{OCTOBOT_COMMUNITY_LANDING_URL}}?utm_source=octobot&utm_medium=dk&utm_campaign=beta_program&utm_content=dashboard">{{OCTOBOT_COMMUNITY_LANDING_URL}})</a>.
-                    The beta OctoBot cloud has its own accounts and products.
+                    version of QuantGuardBot cloud (<a href="{{OCTOBOT_COMMUNITY_LANDING_URL}}?utm_source=octobot&utm_medium=dk&utm_campaign=beta_program&utm_content=dashboard">{{OCTOBOT_COMMUNITY_LANDING_URL}})</a>.
+                    The beta QuantGuardBot cloud has its own accounts and products.
                     Please login using your beta account.
                 </div>
             </div>
@@ -97,7 +97,7 @@
                               id="sandbox-badge"
                               data-toggle="tooltip"
                               title="{{ sandbox_exchanges | join(' and ')}} testnet / sandbox is enabled. This means that
-                              your OctoBot is trading using testnet prices and accounts, which
+                              your QuantGuardBot is trading using testnet prices and accounts, which
                               might not be representative of real markets. Use the trading simulator to test a trading
                               strategy in real conditions."
                         >{{sandbox_exchanges[0] | capitalize}} sandbox</span>
@@ -114,7 +114,7 @@
             </div>
             <div class="card-body d-none text-center" id="loadingMarketsDiv">
                 <h2>
-                    OctoBot is starting, markets will be refreshed when exchanges will be reachable.
+                    QuantGuardBot is starting, markets will be refreshed when exchanges will be reachable.
                 </h2>
             </div>
             <div class="card-body text-center" name="loadingSpinner">

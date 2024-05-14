@@ -1,5 +1,5 @@
 /*
- * Drakkar-Software OctoBot
+ * Drakkar-Software QuantGuardBot
  * Copyright (c) Drakkar-Software, All rights reserved.
  *
  * This library is free software; you can redistribute it and/or
@@ -34,7 +34,7 @@ function apply_evaluator_default_config(element) {
 }
 
 function handle_apply_evaluator_default_config_success_callback(updated_data, update_url, dom_root_element, msg, status){
-    create_alert("success", "Evaluators activated", "Restart OctoBot for changes to be applied");
+    create_alert("success", "Evaluators activated", "Restart QuantGuardBot for changes to be applied");
     location.reload();
 }
 
@@ -90,7 +90,7 @@ function get_config_value_changed(element, new_value) {
 
 function handle_save_buttons_success_callback(updated_data, update_url, dom_root_element, msg, status){
     update_dom(dom_root_element, msg);
-    create_alert("success", "Configuration successfully updated", "Restart OctoBot for changes to be applied.");
+    create_alert("success", "Configuration successfully updated", "Restart QuantGuardBot for changes to be applied.");
 }
 
 function send_command_success_callback(updated_data, update_url, dom_root_element, msg, status){

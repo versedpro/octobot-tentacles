@@ -1,4 +1,4 @@
-#  Drakkar-Software OctoBot-Interfaces
+#  Drakkar-Software QuantGuardBot-Interfaces
 #  Copyright (c) Drakkar-Software, All rights reserved.
 #
 #  This library is free software; you can redistribute it and/or
@@ -44,7 +44,7 @@ def get_official_tentacles_url(use_beta_tentacles) -> str:
 
 
 def install_packages(path_or_url=None, version=None, authenticator=None):
-    message = "Tentacles installed. Restart your OctoBot to load the new tentacles."
+    message = "Tentacles installed. Restart your QuantGuardBot to load the new tentacles."
     success = True
     if path_or_url and version:
         path_or_url = _add_version_to_tentacles_package_path(path_or_url, version)

@@ -1,4 +1,4 @@
-#  Drakkar-Software OctoBot-Interfaces
+#  Drakkar-Software QuantGuardBot-Interfaces
 #  Copyright (c) Drakkar-Software, All rights reserved.
 #
 #  This library is free software; you can redistribute it and/or
@@ -52,7 +52,7 @@ def register(blueprint):
                         added_profiles = models.sync_community_account()
                         if added_profiles:
                             flask.flash(f"Downloaded {len(added_profiles)} profile{'s' if len(added_profiles) > 1 else ''} "
-                                        f"from your OctoBot account.", "success")
+                                        f"from your QuantGuardBot account.", "success")
                 except community_errors.EmailValidationRequiredError:
                     flask.flash(f"Please validate your email from the confirm link we sent you.", "error")
                 except authentication.FailedAuthentication:
@@ -90,7 +90,7 @@ def register(blueprint):
                     added_profiles = models.sync_community_account()
                     if added_profiles:
                         flask.flash(f"Downloaded {len(added_profiles)} profile{'s' if len(added_profiles) > 1 else ''} "
-                                    f"from your OctoBot account.", "success")
+                                    f"from your QuantGuardBot account.", "success")
                 # creation success: redirect to next_url
                 if next_url:
                     return flask.redirect(next_url)

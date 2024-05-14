@@ -1,5 +1,5 @@
 /*
- * Drakkar-Software OctoBot
+ * Drakkar-Software QuantGuardBot
  * Copyright (c) Drakkar-Software, All rights reserved.
  *
  * This library is free software; you can redistribute it and/or
@@ -467,7 +467,7 @@ function has_update_already_been_applied(lower_case_val, config_key){
 function handle_save_buttons_success_callback(updated_data, update_url, dom_root_element, msg, status){
     updated_validated_updated_global_config(msg["global_updated_config"]);
     update_dom(dom_root_element, msg);
-    create_alert("success", "Configuration successfully updated", "Restart OctoBot for changes to be applied.");
+    create_alert("success", "Configuration successfully updated", "Restart QuantGuardBot for changes to be applied.");
 }
 
 function apply_evaluator_default_config(element) {
@@ -488,7 +488,7 @@ function apply_evaluator_default_config(element) {
 }
 
 function handle_apply_evaluator_default_config_success_callback(updated_data, update_url, dom_root_element, msg, status){
-    create_alert("success", "Evaluators activated", "Restart OctoBot for changes to be applied");
+    create_alert("success", "Evaluators activated", "Restart QuantGuardBot for changes to be applied");
 }
 
 function other_element_activated(root_element){
@@ -589,7 +589,7 @@ function check_evaluator_configuration() {
            updateStrategySelector(required_elements);
            updateTradingModeSummary(activated_trading_modes);
         } else {
-            create_alert("error", "No trading mode activated, OctoBot need at least one trading mode.", "");
+            create_alert("error", "No trading mode activated, QuantGuardBot need at least one trading mode.", "");
         }
     }
 }

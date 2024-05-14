@@ -41,7 +41,7 @@
         }
     },
     "profile": {
-        "avatar": "default_profile.png",
+        "avatar": "default_profile.jpg",
         "risk": 2,
         "complexity": 1,
         "description": "DipAnalyser is a profile adapted to volatile markets. It will look for local market bottoms, weight them and buy these bottoms. It never sells except after a buy order is filled.",

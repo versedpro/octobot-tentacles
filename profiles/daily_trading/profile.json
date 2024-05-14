@@ -34,7 +34,7 @@
         }
     },
     "profile": {
-        "avatar": "default_profile.png",
+        "avatar": "default_profile.jpg",
         "risk": 3,
         "complexity": 1,
         "description": "DailyTrading is a versatile profile that catches buy and sell opportunities using RSI and moving average indicators.",

@@ -1,5 +1,5 @@
 /*
- * Drakkar-Software OctoBot
+ * Drakkar-Software QuantGuardBot
  * Copyright (c) Drakkar-Software, All rights reserved.
  *
  * This library is free software; you can redistribute it and/or
@@ -147,8 +147,8 @@ function handle_tentacles_buttons(){
     });
     $("#reset_tentacles_packages").click(function(){
         if(confirm("Reset all installed tentacles ? " +
-            "WARNING: you will have to re-install the default tentacles and restart your OctoBot to continue " +
-            "using this interface (this interface is an OctoBot tentacle). " +
+            "WARNING: you will have to re-install the default tentacles and restart your QuantGuardBot to continue " +
+            "using this interface (this interface is an QuantGuardBot tentacle). " +
             "This will delete all tentacle files but will save your tentacles configuration.")) {
             perform_packages_operation($(this));
         }
