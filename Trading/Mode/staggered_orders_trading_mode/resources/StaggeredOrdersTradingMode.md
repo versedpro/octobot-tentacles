@@ -9,9 +9,11 @@ That could be from -100x to +100x
 Profits will be made from price movements within the covered price area.  
 It never "sells at a loss", but always at a profit, therefore OctoBot never cancels any orders when using the Staggered Orders Trading Mode.
 
-To know more, checkout the 
-<a target="_blank" rel="noopener" href="https://www.octobot.cloud/en/guides/octobot-trading-modes/staggered-orders-trading-mode?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=StaggeredOrdersTradingModeDocs">
-full Staggered Orders trading mode guide</a>.
+[//]: # (To know more, checkout the )
+
+[//]: # (<a target="_blank" rel="noopener" href="https://www.octobot.cloud/en/guides/octobot-trading-modes/staggered-orders-trading-mode?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=StaggeredOrdersTradingModeDocs">)
+
+[//]: # (full Staggered Orders trading mode guide</a>.)
 
 #### Changing configuration
 

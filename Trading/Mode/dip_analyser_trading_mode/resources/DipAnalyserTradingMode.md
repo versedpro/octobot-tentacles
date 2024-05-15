@@ -8,9 +8,10 @@ than this of the filled buy order. The number of sell orders created after each 
 
 A higher risk configuration will make larger buy orders when order size is not configured.
 
-To know more, checkout the 
-<a target="_blank" rel="noopener" href="https://www.octobot.cloud/en/guides/octobot-trading-modes/dip-analyser-trading-mode?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=DipAnalyserTradingModeDocs">
-full Dip analyser trading mode guide</a>.
+To know more, checkout the Dip analyser trading mode guide(coming soon).
+
+[//]: # (<a target="_blank" rel="noopener" href="https://www.octobot.cloud/en/guides/octobot-trading-modes/dip-analyser-trading-mode?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=DipAnalyserTradingModeDocs">)
+[//]: # (full Dip analyser trading mode guide</a>.)
 
 ### Good to know
 

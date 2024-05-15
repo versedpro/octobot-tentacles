@@ -6,15 +6,21 @@ a state that is different from the previous one and that is not NEUTRAL.
 
 A LONG state will trigger a buy order. A SHORT state will trigger a sell order. 
 
-<div class="text-center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yTE6NE690Ds?showinfo=0&amp;rel=0" 
-    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+[//]: # (<div class="text-center">)
 
-To know more, checkout the 
-<a target="_blank" rel="noopener" href="https://www.octobot.cloud/en/guides/octobot-trading-modes/daily-trading-mode?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=DailyTradingModeDocs">
-full Daily trading mode guide</a>.
+[//]: # (    <iframe width="560" height="315" src="https://www.youtube.com/embed/yTE6NE690Ds?showinfo=0&amp;rel=0" )
+
+[//]: # (    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; )
+
+[//]: # (    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
+
+[//]: # (</div>)
+
+[//]: # (To know more, checkout the )
+
+[//]: # (<a target="_blank" rel="noopener" href="https://www.octobot.cloud/en/guides/octobot-trading-modes/daily-trading-mode?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=DailyTradingModeDocs">)
+
+[//]: # (full Daily trading mode guide</a>.)
 
 ### Default mode
 On Default mode, the DailyTradingMode will cancel previously created open orders 

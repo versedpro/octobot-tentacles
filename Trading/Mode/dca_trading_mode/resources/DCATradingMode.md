@@ -2,23 +2,28 @@ Dollar cost averaging (DCA) is a trading mode that can help you lower the amount
 minimize risk. Instead of purchasing investments at a single price point, with dollar cost averaging you buy 
 in smaller amounts at regular intervals.
 
-<div class="text-center">
-    <div>
+[//]: # (<div class="text-center">)
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/519pwSV1uwE?si=MT9e1Gqp9WWw45Z" 
-    title="Build your own Smart DCA strategy" frameborder="0" allow="accelerometer; autoplay; 
-    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[//]: # (    <div>)
 
+[//]: # (    <iframe width="560" height="315" src="https://www.youtube.com/embed/519pwSV1uwE?si=MT9e1Gqp9WWw45Z" )
 
-    </div>
-</div>
+[//]: # (    title="Build your own Smart DCA strategy" frameborder="0" allow="accelerometer; autoplay; )
+
+[//]: # (    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
+
+[//]: # (    </div>)
+
+[//]: # (</div>)
 
 OctoBot's DCA is more than just a simple regular DCA technique, it allows you to accurately automate your 
 entries and exit conditions in a simple, yet very powerful way.
 
-To know more, checkout the 
-<a target="_blank" rel="noopener" href="https://www.octobot.cloud/en/guides/octobot-trading-modes/dca-trading-mode?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=DCATradingModeDocs">
-full DCA trading mode guide</a>.
+To know more, checkout the DCA trading mode guide(coming soon).
+
+[//]: # (<a target="_blank" rel="noopener" href="https://www.octobot.cloud/en/guides/octobot-trading-modes/dca-trading-mode?utm_source=octobot&utm_medium=dk&utm_campaign=regular_open_source_content&utm_content=DCATradingModeDocs">)
+
+[//]: # (full DCA trading mode guide</a>.)
 
 ### In a nutshell
 - Entries can be triggered either:
