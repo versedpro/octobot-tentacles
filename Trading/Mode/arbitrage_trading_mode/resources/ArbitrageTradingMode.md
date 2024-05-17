@@ -15,11 +15,11 @@ The first limit order is cancelled if the local exchange price reaches the other
 
 It is recommended to enable arbitrage trading on **few exchanges only** to benefit from **price lag**: 
 simply register these exchanges in your ArbitrageTradingMode configuration.  
-**Every exchange** in your OctoBot configuration will be used to compute the **average price** for each traded pair, 
+**Every exchange** in your QuantGuardBot configuration will be used to compute the **average price** for each traded pair, 
 therefore you can add **highly liquid exchanges** to be used as **price references only** and quickly 
 spot arbitrage opportunities.
 
-By default **every exchange** in your OctoBot configuration is used for arbitrage trading. It is recommended to 
+By default **every exchange** in your QuantGuardBot configuration is used for arbitrage trading. It is recommended to 
 **narrow this list down** in your ArbitrageTradingMode configuration and **only trade on the ones offering 
 arbitrage opportunities and use the others as price indicators**.
 
