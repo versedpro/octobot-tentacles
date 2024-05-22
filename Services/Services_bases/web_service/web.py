@@ -37,13 +37,13 @@ class WebService(services.AbstractService):
 
     def get_fields_description(self):
         return {
-            services_constants.CONFIG_WEB_PORT: "Port to access your OctoBot web interface from.",
-            services_constants.CONFIG_AUTO_OPEN_IN_WEB_BROWSER: "When enabled, OctoBot will open the web interface on your web "
+            services_constants.CONFIG_WEB_PORT: "Port to access your QuantGuardBot web interface from.",
+            services_constants.CONFIG_AUTO_OPEN_IN_WEB_BROWSER: "When enabled, QuantGuardBot will open the web interface on your web "
                                                                 "browser upon startup.",
-            services_constants.CONFIG_WEB_REQUIRES_PASSWORD: "When enabled, OctoBot web interface will be protected by a password. "
+            services_constants.CONFIG_WEB_REQUIRES_PASSWORD: "When enabled, QuantGuardBot web interface will be protected by a password. "
                                                              "Failing 10 times to enter this password will block the user and require "
-                                                             "OctoBot to restart before being able to retry to authenticate.",
-            services_constants.CONFIG_WEB_PASSWORD: "Password to enter to access this OctoBot when password protection is enabled. "
+                                                             "QuantGuardBot to restart before being able to retry to authenticate.",
+            services_constants.CONFIG_WEB_PASSWORD: "Password to enter to access this QuantGuardBot when password protection is enabled. "
                                                     "Only a hash of this password will be stored."
         }
 
@@ -60,7 +60,7 @@ class WebService(services.AbstractService):
 
     @classmethod
     def get_help_page(cls) -> str:
-        return f"{constants.OCTOBOT_DOCS_URL}/octobot-interfaces/web"
+        return f"{constants.OCTOBOT_DOCS_URL}/interfaces/web"
 
     @staticmethod
     def is_setup_correctly(config):
@@ -90,7 +90,7 @@ class WebService(services.AbstractService):
         return "/home"
 
     def get_logo(self):
-        return "static/img/svg/octobot.svg"
+        return "static/img/svg/bot.svg"
 
     async def prepare(self) -> None:
         try:

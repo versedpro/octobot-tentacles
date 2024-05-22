@@ -15,7 +15,7 @@ To know more, checkout the Dip analyser trading mode guide(coming soon).
 
 ### Good to know
 
-- Ensure **enough funds are available in your portfolio** for OctoBot to place the **initial buy orders**.
+- Ensure **enough funds are available in your portfolio** for QuantGuardBot to place the **initial buy orders**.
 - Sell orders are never cancelled by this strategy unless stop losses are enabled,  therefore it is not advised to use it on
 continued downtrends without using stop losses: funds might get locked in open sell orders.
 - Limit buy orders might be automatically cancelled and replaced when a better buy opportunity is identified.

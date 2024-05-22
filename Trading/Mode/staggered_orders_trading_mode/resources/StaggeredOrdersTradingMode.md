@@ -7,7 +7,7 @@ That could be from -100x to +100x
 (-99% to +10000%).
 
 Profits will be made from price movements within the covered price area.  
-It never "sells at a loss", but always at a profit, therefore OctoBot never cancels any orders when using the Staggered Orders Trading Mode.
+It never "sells at a loss", but always at a profit, therefore QuantGuardBot never cancels any orders when using the Staggered Orders Trading Mode.
 
 [//]: # (To know more, checkout the )
 
@@ -17,13 +17,13 @@ It never "sells at a loss", but always at a profit, therefore OctoBot never canc
 
 #### Changing configuration
 
-To apply changes to the Staggered Orders Trading Mode settings, you will have to manually cancel orders and restart your OctoBot.  
+To apply changes to the Staggered Orders Trading Mode settings, you will have to manually cancel orders and restart your QuantGuardBot.  
 This trading mode instantly places opposite side orders when an order is filled.  
-OctoBot also performs a check every 3 days to ensure the grid healthy state and create missing grid orders if any.
+QuantGuardBot also performs a check every 3 days to ensure the grid healthy state and create missing grid orders if any.
 
 #### Traded pairs
 Only works with independent bases and quotes : ETH/USDT and ADA/BTC can be activated together but ETH/USDT
-and BTC/USDT can't be activated together for the same OctoBot instance since they are sharing the same symbol 
+and BTC/USDT can't be activated together for the same QuantGuardBot instance since they are sharing the same symbol 
 (here USDT).
 
 #### Funds allocation

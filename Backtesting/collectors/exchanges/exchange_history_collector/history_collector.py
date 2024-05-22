@@ -30,7 +30,7 @@ try:
     import octobot_trading.enums as trading_enums
     import octobot_trading.errors as trading_errors
 except ImportError:
-    logging.error("ExchangeHistoryDataCollector requires OctoBot-Trading package installed")
+    logging.error("ExchangeHistoryDataCollector requires QuantGuardBot-Trading package installed")
 
 
 class ExchangeHistoryDataCollector(collector.AbstractExchangeHistoryCollector):

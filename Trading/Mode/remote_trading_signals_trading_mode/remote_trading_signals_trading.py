@@ -101,7 +101,7 @@ class RemoteTradingSignalsTradingMode(trading_modes.AbstractTradingMode):
                 )
             except (authentication.AuthenticationRequired, authentication.AuthenticationError) as e:
                 self.logger.exception(e, True, f"Error while subscribing to signal feed: {e}. Please sign in to "
-                                               f"your OctoBot account to receive trading signals")
+                                               f"your QuantGuardBot account to receive trading signals")
             except Exception as e:
                 self.logger.exception(e, True, f"Error while subscribing to signal feed: {e}. This trading mode won't "
                                                f"be operating")

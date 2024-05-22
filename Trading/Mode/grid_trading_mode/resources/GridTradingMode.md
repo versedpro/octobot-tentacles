@@ -22,9 +22,9 @@ You can customize the grid for each trading pair. To configure a pair, enter:
 
 #### Profits
 Profits will be made from price movements within the covered price area.  
-It never "sells at a loss", but always at a profit, therefore OctoBot never cancels any orders when using the Grid Trading Mode.
+It never "sells at a loss", but always at a profit, therefore QunatGuardBot never cancels any orders when using the Grid Trading Mode.
 
-To apply changes to the Grid Trading Mode settings, you will have to manually cancel orders and restart your OctoBot.  
+To apply changes to the Grid Trading Mode settings, you will have to manually cancel orders and restart your QuantGuardBot.  
 This trading mode instantly places opposite side orders when an order is filled.
 
 This trading mode has been made possible thanks to the support of PKBO & Calusari.

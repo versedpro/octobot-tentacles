@@ -684,7 +684,7 @@ class DCATradingMode(trading_modes.AbstractTradingMode):
             DCATradingModeConsumer.USE_INIT_ENTRY_ORDERS, commons_enums.UserInputTypes.BOOLEAN,
             self.enable_initialization_entry, inputs,
             title="Enable initialization entry orders: Automatically trigger entry orders "
-                  "when starting OctoBot, regardless of initial evaluator values.",
+                  "when starting QuantGuardBot, regardless of initial evaluator values.",
             editor_options={
                 commons_enums.UserInputOtherSchemaValuesTypes.DEPENDENCIES.value: {
                     DCATradingModeProducer.TRIGGER_MODE: TriggerMode.MAXIMUM_EVALUATORS_SIGNALS_BASED.value

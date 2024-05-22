@@ -165,7 +165,7 @@ class GridTradingMode(staggered_orders_trading.StaggeredOrdersTradingMode):
             default_config[self.CONFIG_USE_EXISTING_ORDERS_ONLY], inputs,
             parent_input_name=self.CONFIG_PAIR_SETTINGS,
             title="Use existing orders only: when checked, new orders will only be created upon pre-existing orders "
-                  "fill. OctoBot won't create orders at startup: it will use the ones already on exchange instead. "
+                  "fill. QuantGuardBot won't create orders at startup: it will use the ones already on exchange instead. "
                   "This mode allows grid orders to operate on user created orders. Can't work on trading simulator.",
         )
         self.UI.user_input( 

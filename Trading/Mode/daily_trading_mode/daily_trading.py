@@ -939,7 +939,7 @@ class DailyTradingModeProducer(trading_modes.AbstractTradingModeProducer):
         try:
             import octobot_services.api as services_api
             import octobot_services.enums as services_enum
-            title = f"OCTOBOT ALERT : #{symbol}"
+            title = f"QUANTGUARDBOT ALERT : #{symbol}"
             alert_content, alert_content_markdown = pretty_printer.cryptocurrency_alert(
                 new_state,
                 self.final_eval)
